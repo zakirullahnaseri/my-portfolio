@@ -1,7 +1,7 @@
 
 import bakeryImage from "./assets/bakery.png";
 import newsImage from "./assets/news.png";
-
+import profileImage from "./assets/profile.jpg";
 
 function App() {
   return (
@@ -120,12 +120,16 @@ function App() {
   </a>
 
   <a
-    href="#"
-    className="btn btn-light btn-lg px-4"
-  >
-    <i className="bi bi-download me-2"></i>
-    Download CV
-  </a>
+  href="/Zakir-khan-CV.pdf"
+  download="Zakir-Khan-CV.pdf"
+  className="btn btn-light btn-lg px-4"
+>
+  <i className="bi bi-download me-2"></i>
+  Download CV
+</a>
+
+
+
 </div>
 
               <div className="social-links mt-5">
@@ -152,9 +156,13 @@ function App() {
             <div className="col-lg-5 text-center mt-5 mt-lg-0">
               <div className="hero-image-wrapper">
 
-                <div className="hero-image">
-                  <i className="bi bi-person-fill"></i>
-                </div>
+                <div className="hero-profile">
+  <img
+    src={profileImage}
+    alt="Zakir Khan - Full-Stack Web Developer"
+    className="profile-image"
+  />
+</div>
 
                 <div className="floating-card card-one">
                   <i className="bi bi-code-slash"></i>
