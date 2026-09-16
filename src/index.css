@@ -34,7 +34,9 @@ body {
 .nav-link:hover,
 .nav-link.active {
   color: #0d6efd !important;
+
 }
+
 
 /* HERO */
 
@@ -511,5 +513,329 @@ body {
   .hero-profile {
     width: 270px;
     height: 270px;
+  }
+}
+.about-page {
+  background: #080d18;
+}
+
+/* =========================
+   HEADINGS
+========================= */
+
+.about-page h1,
+.about-page h2,
+.about-page h3,
+.about-page h4,
+.about-page h5 {
+  color: #f8fafc;
+}
+
+.about-page p,
+.about-page .text-secondary {
+  color: #cbd5e1 !important;
+  line-height: 1.85;
+}
+
+/* =========================
+   SECTION BADGE
+========================= */
+
+.about-page .section-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  border-radius: 30px;
+  background: rgba(59, 130, 246, 0.08);
+  color: #60a5fa !important;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+/* =========================
+   SUBTITLE
+========================= */
+
+.about-page .section-subtitle {
+  max-width: 700px;
+  color: #94a3b8 !important;
+  line-height: 1.8;
+}
+
+/* =========================
+   PROFILE IMAGE
+========================= */
+
+.about-page .about-image-wrapper {
+  display: inline-block;
+  padding: 8px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    #0d6efd,
+    #3b82f6,
+    rgba(13, 110, 253, 0.08)
+  );
+  box-shadow:
+    0 20px 50px rgba(13, 110, 253, 0.18),
+    0 0 30px rgba(13, 110, 253, 0.08);
+}
+
+.about-page .about-image {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+  border: 4px solid #0d1422;
+}
+
+/* =========================
+   CONTENT CARDS
+========================= */
+
+.about-page .content-card {
+  background: #0d1422;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.about-page .content-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(59, 130, 246, 0.35);
+  box-shadow:
+    0 20px 45px rgba(0, 0, 0, 0.30),
+    0 0 25px rgba(13, 110, 253, 0.08);
+}
+
+/* =========================
+   SECTION ICONS
+========================= */
+
+.about-page .about-section-icon {
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 18px;
+
+  border-radius: 14px;
+
+  background: rgba(59, 130, 246, 0.12);
+  border: 1px solid rgba(59, 130, 246, 0.18);
+
+  color: #3b82f6;
+  font-size: 23px;
+
+  box-shadow: 0 8px 20px rgba(13, 110, 253, 0.08);
+}
+
+/* =========================
+   LIST
+========================= */
+
+.about-page .about-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.about-page .about-list li {
+  color: #cbd5e1;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+
+.about-page .about-list li::marker {
+  color: #3b82f6;
+}
+
+/* =========================
+   SKILL ICONS
+========================= */
+
+.about-page .about-skill-icon {
+  color: #3b82f6;
+  font-size: 35px;
+  margin-bottom: 18px;
+  display: inline-block;
+
+  transition: all 0.3s ease;
+}
+
+.about-page .content-card:hover .about-skill-icon {
+  transform: translateY(-3px);
+  color: #60a5fa;
+}
+
+/* =========================
+   SKILL TAGS
+========================= */
+
+.about-page .skill-tag {
+  display: inline-block;
+
+  padding: 7px 12px;
+
+  border-radius: 8px;
+
+  background: rgba(59, 130, 246, 0.10);
+  border: 1px solid rgba(59, 130, 246, 0.18);
+
+  color: #93c5fd;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  transition: all 0.3s ease;
+}
+
+.about-page .skill-tag:hover {
+  background: #0d6efd;
+  border-color: #0d6efd;
+  color: #ffffff;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 6px 15px rgba(13, 110, 253, 0.20);
+}
+
+/* =========================
+   BLUE TEXT
+========================= */
+
+.about-page .text-primary {
+  color: #3b82f6 !important;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.about-page .btn-primary {
+  background: #0d6efd;
+  border-color: #0d6efd;
+
+  font-weight: 600;
+
+  box-shadow: 0 8px 20px rgba(13, 110, 253, 0.20);
+
+  transition: all 0.3s ease;
+}
+
+.about-page .btn-primary:hover {
+  background: #0b5ed7;
+  border-color: #0b5ed7;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 12px 25px rgba(13, 110, 253, 0.30);
+}
+
+.about-page .btn-outline-primary {
+  color: #60a5fa;
+  border-color: rgba(59, 130, 246, 0.50);
+
+  font-weight: 600;
+}
+
+.about-page .btn-outline-primary:hover {
+  color: #ffffff;
+  background: #0d6efd;
+  border-color: #0d6efd;
+}
+
+/* =========================
+   CTA SECTION
+========================= */
+
+.about-page .about-cta {
+  padding: 60px 30px;
+  margin-bottom: 70px;
+
+  border-radius: 22px;
+
+  background: linear-gradient(
+    135deg,
+    #0d1628,
+    #0b1220
+  );
+
+  border: 1px solid rgba(59, 130, 246, 0.18);
+
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+.about-page .about-cta p {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: #94a3b8 !important;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 991px) {
+
+  .about-page .about-image {
+    width: 320px;
+    height: 320px;
+  }
+
+}
+
+@media (max-width: 575px) {
+
+  .about-page .about-image {
+    width: 280px;
+    height: 280px;
+  }
+
+  .about-page .content-card {
+    padding: 24px;
+  }
+
+  .about-page .about-cta {
+    padding: 45px 20px;
+  }
+
+}
+
+
+
+.logo-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar-logo {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+
+  transition: all 0.3s ease;
+}
+
+.navbar-logo:hover {
+  transform: scale(1.08);
+  filter: drop-shadow(0 0 10px rgba(13, 110, 253, 0.5));
+}
+
+@media (max-width: 575px) {
+  .navbar-logo {
+    width: 48px;
+    height: 48px;
   }
 }
