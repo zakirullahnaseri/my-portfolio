@@ -2,6 +2,8 @@ import { Link, useParams } from "react-router-dom";
 
 import bakeryImage from "../assets/bakery.png";
 import newsImage from "../assets/news.png";
+import typingImage from "../assets/pashtotyping.png";
+
 
 function ProjectDetails() {
 
@@ -24,6 +26,22 @@ function ProjectDetails() {
       ],
       github:
         "https://github.com/zakirullahnaseri/Bakery-Management-System",
+    },
+
+    Pashto: {
+      title: "Pashto Typing Template",
+      image: typingImage,
+      description:
+        "A web-based Patho typing Template simple designIt is a simple and user-friendly template for typing in the Pashto language.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+      
+      ],
+      github:
+        "ttps://github.com/zakirullahnaseri/PashtoTypingTemplate",
     },
 
     news: {

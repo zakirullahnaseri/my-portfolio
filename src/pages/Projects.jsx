@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 import bakeryImage from "../assets/bakery.png";
 import newsImage from "../assets/news.png";
+import typingImage from "../assets/pashtotyping.png";
 
 function Projects() {
   return (
@@ -98,6 +99,7 @@ function Projects() {
 
             </div>
 
+
             {/* NEWS */}
             <div className="col-lg-6">
 
@@ -158,6 +160,67 @@ function Projects() {
               </div>
 
             </div>
+
+
+            {/* Typing  */}
+            <div className="col-lg-6">
+
+              <div className="project-card h-100">
+
+                <img
+                  src={typingImage}
+                  alt="pashto Typing template "
+                  className="project-image w-100"
+                />
+
+                <div className="p-4">
+
+                  <h3 className="text-white mb-3">
+                    Pashto Typing Template 
+                  </h3>
+
+                  <p className="section-text">
+                    A web-based Patho typing Template simple designIt is a simple and user-friendly template for typing in the Pashto language.
+                  
+                  </p>
+
+                  <div className="project-tech mb-4">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Bootstrap</span>
+                    <span>JavaScript</span>
+                  
+                  </div>
+
+                  <div className="d-flex gap-2 flex-wrap">
+
+                    <Link
+                      to="/projects/Pashto"
+                      className="btn btn-primary"
+                    >
+                      View Details
+                      <i className="bi bi-arrow-right ms-2"></i>
+                    </Link>
+
+                    <a
+                      href="ttps://github.com/zakirullahnaseri/PashtoTypingTemplate"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-outline-light"
+                    >
+                      <i className="bi bi-github me-2"></i>
+                      GitHub
+                    </a>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
 
           </div>
 

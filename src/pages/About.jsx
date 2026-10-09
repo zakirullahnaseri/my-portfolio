@@ -9,7 +9,7 @@ function About() {
       <section className="container text-center mb-5">
         <span className="section-badge">ABOUT ME</span>
 
-        <h1 className="display-5 fw-bold mt-3">
+        <h1 className="display-5 fw-bold mt-5">
           Full-Stack Web Developer
         </h1>
 

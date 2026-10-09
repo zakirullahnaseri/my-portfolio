@@ -36,11 +36,7 @@ function Skills() {
       icon: "bi bi-filetype-php",
       description: "Backend development and server-side applications.",
     },
-    {
-      name: "Laravel",
-      icon: "bi bi-layers",
-      description: "Modern PHP framework for web applications.",
-    },
+  
     {
       name: "MySQL",
       icon: "bi bi-database",
