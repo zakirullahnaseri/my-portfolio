@@ -85,7 +85,7 @@ function Projects() {
                       href="https://github.com/zakirullahnaseri/Bakery-Management-System"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn btn-outline-light"
+                      className="btn btn-outline-dark"
                     >
                       <i className="bi bi-github me-2"></i>
                       GitHub
@@ -147,7 +147,7 @@ function Projects() {
                       href="https://github.com/zakirullahnaseri/News-project"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn btn-outline-light"
+                      className="btn btn-outline-dark"
                     >
                       <i className="bi bi-github me-2"></i>
                       GitHub
@@ -204,10 +204,10 @@ function Projects() {
                     </Link>
 
                     <a
-                      href="ttps://github.com/zakirullahnaseri/PashtoTypingTemplate"
+                      href="https://github.com/zakirullahnaseri/PashtoTypingTemplate"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn btn-outline-light"
+                      className="btn btn-outline-dark"
                     >
                       <i className="bi bi-github me-2"></i>
                       GitHub

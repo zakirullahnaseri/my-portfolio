@@ -11,7 +11,7 @@ function Footer() {
           <div className="col-lg-5">
 
             <Link to="/" className="footer-brand">
-              ZAKIR<span>.</span>
+              ZAKIRKHAN<span>.</span>
             </Link>
 
             <p className="footer-description">
@@ -27,7 +27,7 @@ function Footer() {
                 rel="noopener noreferrer"
                 aria-label="GitHub"
               >
-                <i className="bi bi-github"></i>
+                <i className="bi bi-github text-white"> <span className="me-3">GitHub</span> </i>
               </a>
 
             </div>

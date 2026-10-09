@@ -116,17 +116,7 @@ function Home() {
                   />
 
                 </div>
-
-                {/* <div className="floating-card card-one">
-                  <i className="bi bi-code-slash"></i>
-                  React
-                </div>
-
-                <div className="floating-card card-two">
-                  <i className="bi bi-database"></i>
-                  MySQL
-                </div> */}
-
+                
               </div>
 
             </div>
