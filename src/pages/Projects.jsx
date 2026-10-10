@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import bakeryImage from "../assets/bakery.png";
 import newsImage from "../assets/news.png";
 import typingImage from "../assets/pashtotyping.png";
+import porductImage from "../assets/productStore.png";
 
 function Projects() {
   return (
@@ -205,6 +206,68 @@ function Projects() {
 
                     <a
                       href="https://github.com/zakirullahnaseri/PashtoTypingTemplate"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-outline-dark"
+                    >
+                      <i className="bi bi-github me-2"></i>
+                      GitHub
+                    </a>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+        {/* Product store section  */}
+            <div className="col-lg-6">
+
+              <div className="project-card h-100">
+
+                <img
+                  src={porductImage}
+                  alt="React-product-card-store"
+                  className="project-image w-100"
+                />
+
+                <div className="p-4">
+
+                  <h3 className="text-white mb-3">
+                    React-product-card-store
+                  </h3>
+
+                  <p className="section-text ">
+                    React e-commerce product store with product cards, category filtering, Context API, Axios, Bootstrap, and Fake Store API.
+                
+                  </p>
+
+                  <div className="project-tech mb-4">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Bootstrap</span>
+                    <span>JavaScript</span>
+                    <span>React</span>
+                    <span>Context API</span>
+                  
+                  
+                  </div>
+
+                  <div className="d-flex gap-2 flex-wrap">
+
+                    <Link
+                      to="/projects/productStore"
+                      className="btn btn-primary"
+                    >
+                      View Details
+                      <i className="bi bi-arrow-right ms-2"></i>
+                    </Link>
+
+                    <a
+                      href="https://github.com/zakirullahnaseri/React-product-card-store"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-outline-dark"

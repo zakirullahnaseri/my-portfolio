@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import bakeryImage from "../assets/bakery.png";
 import newsImage from "../assets/news.png";
 import typingImage from "../assets/pashtotyping.png";
-
+import porductImage from "../assets/productStore.png";
 
 function ProjectDetails() {
 
@@ -43,7 +43,24 @@ function ProjectDetails() {
       github:
         "ttps://github.com/zakirullahnaseri/PashtoTypingTemplate",
     },
-
+// e-commrece api card store
+     productStore: {
+      title: "React-product-card-store",
+      image: porductImage,
+      description:
+        "React e-commerce product store with product cards, category filtering, Context API, Axios, Bootstrap, and Fake Store API.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "React",
+        "Context API"
+      
+      ],
+      github:
+        "https://github.com/zakirullahnaseri/React-product-card-store",
+    },
     news: {
       title: "News Project",
       image: newsImage,
